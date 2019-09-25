@@ -8,14 +8,12 @@ formulario.addEventListener("submit", function(evento) {
     let inputUsuario = document.getElementById("input-de-formulario");
     let mensagem = inputUsuario.value;
 
-    console.log(inputUsuario);
-    console.log(mensagem);
-
     let mostraMensagem = document.createElement("p");
     mostraMensagem.textContent = mensagem;
     comentarios.appendChild(mostraMensagem);
 
     mostraMensagem.classList.add("comentario");
+    formulario.reset();
  
 });
 
