@@ -33,6 +33,10 @@ body {
     padding: 5px 0;
 }
 
+#validar {
+    color: red;
+}
+
 .comentario {
     font-size: 12px;
     background-color: white;
